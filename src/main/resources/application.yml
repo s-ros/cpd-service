@@ -1,0 +1,15 @@
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: 1348@1623Sr
+    url: jdbc:postgresql://localhost:5432/CPD_DATA_INITIATIVE
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+      show-sql: true
