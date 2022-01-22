@@ -45,6 +45,7 @@ public class CrimeIncident {
     private String victimAge;
     private String victimRace;
     private String victimEthnicity;
+    private String victimGender;
     private String suspectAge;
     private String suspectRace;
     private String suspectEthnicity;
